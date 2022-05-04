@@ -62,8 +62,6 @@ def generate_title(logline):
     title = generated[0]['generated_text'].replace(prompt,'').replace('\"','').replace('.','')
     return title
 
-# In[104]:
-
 
 #title = generate_title(logline)
 # for i in range (20):
